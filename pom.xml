@@ -1,14 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>net.samuelcampos</groupId>
+    <groupId>io.github.radamus</groupId>
     <artifactId>usbdrivedetector</artifactId>
-    <version>2.0.5-SNAPSHOT</version>
+    <version>2.4.0</version>
     <packaging>jar</packaging>
 
     <name>USB Drive Detector</name>
-    <description>A Java library to get a list of all usb storage devices connected to the computer. It works on the three main operating systems (Windows, Linux and OS X).</description>
-    <url>http://www.samuelcampos.net</url>
+    <description>A Java library to get a list of all usb storage devices connected to the computer. It works on the three main operating systems (Windows, Linux and OS X). Fork from http://www.samuelcampos.net</description>
+    <url>https://github.com/radamus/usbdrivedetector</url>
 
     <properties>
         <java.version>1.8</java.version>
@@ -58,6 +58,11 @@
         <developer>
             <id>samuelcampos.net</id>
             <name>Samuel Campos</name>
+            <email />
+        </developer>
+          <developer>
+            <id>radamus</id>
+            <name>Radosław Adamus</name>
             <email />
         </developer>
     </developers>
